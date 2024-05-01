@@ -1,0 +1,208 @@
+img {
+    width: 890px;
+    height: 450px;
+}
+
+#cars {
+    position: relative;
+    text-align: center;
+}
+
+#cars h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#cars img {
+    width: 100%;
+    height: auto;
+}
+
+#cars button {
+    position: absolute;
+    top: calc(50% + 50px); /* Adjust the value as needed to position the button closer to the h1 */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px; /* Adjust the padding to make the button smaller */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.new {
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.image-grid a {
+    flex: 0 0 calc(31.33% - 23px); /* 31.33% width for each image with some margin */
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.image-grid img {
+    max-width: 100%; /* Ensure images don't exceed their parent container's width */
+    max-height: 150px; /* Set a maximum height to make the images smaller */
+    width: auto; /* Let the width adjust automatically to maintain aspect ratio */
+    height: auto; /* Ensure the aspect ratio is maintained */
+}
+
+.car-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.car-box img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details h2 {
+    margin-bottom: 5px;
+    font-size: small;
+    color: red;
+}
+
+.buttons {
+    margin-top: 10px;
+
+}
+
+.buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.buttons button:hover {
+    background-color: #df103d;
+}
+
+.car-container {
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Display items in a row */
+    flex-wrap: wrap;
+}
+
+.car-container {
+    display: flex;
+    justify-content: space-between; /* Distribute cards evenly */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+}
+
+.car-card {
+    width: calc(33.33% - 20px); /* Adjust width to fit three cards in a row with some spacing */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px; /* Add space between rows */
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+}
+
+.car-details {
+    margin-top: 20px; /* Add space between image and details */
+}
+
+.car-details h2 {
+    margin-bottom: 5px;
+}
+
+.car-buttons {
+    margin-top: 10px;
+}
+
+.car-buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.car-buttons button:hover {
+    background-color: #ee1919;
+}
+
+.trade {
+    background-color: #e21414;
+    padding-top: 17px;
+    height: max-content;
+}
+.btn2 {
+    text-align: center;
+    color: white; /* Default text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to button */
+}
+
+.btn2:hover {
+    background-color: red; /* Change button background color on hover */
+}
+
+
+.container {
+    display: flex;
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.separator {
+    border-left: 1px solid #ccc;
+    height: auto; /* Adjust height of separator */
+}
+
+.button {
+    background-color: white; /* Set button background color */
+    color: blue; /* Set button text color */
+    border: 1px solid rgb(234, 234, 235); /* Add button border */
+    padding: 10px 20px; /* Add padding to button */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
+}
+
+.button:hover {
+    background-color: red; /* Change button background color on hover */
+    color: white; /* Change button text color on hover */
+}
+
+.section img {
+    width: 50px; /* Adjust the width to make the images smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+  
