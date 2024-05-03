@@ -25,3 +25,51 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+.list {
+    display: flex;
+    text-align: center;
+    background-color: darkcyan;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 40;
+    font-size: x-large;
+    font-family: serif;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 150px;
+    justify-content: center;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+nav {
+    display: inline;
+    text-align: center;
+    margin-left: 250px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    float:right;
+    margin-right: 15px;
+    margin-top: 90px;
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+.loo {
+        margin-left: 150px;
+
+}
+.welcome {
+    text-align: center;
+    background: #000;
+    color: white;
+}
+#about {
+    text-align: center;
+    font-size: larger;
+}
