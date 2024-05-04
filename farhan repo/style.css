@@ -28,7 +28,7 @@ th {
 .list {
     display: flex;
     text-align: center;
-    background-color: darkcyan;
+    background-color: black;
 }
 nav a{
     text-decoration: none;
@@ -42,6 +42,7 @@ nav a{
     justify-content: center;
     padding-left: 20px;
     margin-left: 20px;
+    background-color: black;
 }
 nav {
     display: inline;
@@ -52,7 +53,7 @@ li a {
     text-decoration: none;
     color: black;
 }
-img {
+.kk{
     float:right;
     margin-right: 15px;
     margin-top: 90px;
