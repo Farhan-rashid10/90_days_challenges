@@ -74,3 +74,58 @@ li a {
     text-align: center;
     font-size: larger;
 }
+.section {
+    text-align: center;
+    margin: 10px;
+    
+}
+
+#section1 {
+    flex: 1;
+    text-align: start;
+}
+
+#section2 {
+    flex: 2;
+    text-align: start;
+}
+
+#section3 {
+    flex: 1;
+    text-align: start;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+    padding: 12px;
+    width: 200px;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+}
+
+div button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button a {
+ text-decoration: none;
+ color: white;
+ font-size: medium;
+ font-weight: lighter;
+}
