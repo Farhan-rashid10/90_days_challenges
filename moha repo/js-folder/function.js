@@ -53,5 +53,18 @@ function product (x, y) {
   console.log(fn(100, 200))
 
 
-// function encapsulation
+// function more
 
+function greeting(name) {
+  console.log(`hello ${name}`);
+}
+
+greeting("mohamed")
+greeting("ali")
+
+
+ let  add =function (num1, num2) {
+  console.log(num1 + num2);
+}
+
+add(20,30)
