@@ -5,3 +5,19 @@ console.log(data[i]);
 i++;
 
 }
+
+
+
+
+let fam= ["abdi", "jey", "mum", "dad"]
+console.log(fam.push("siz"))
+console.log(fam.unshift("man"))
+data.pop();
+data.shift()
+console.log(fam)
+
+let copy= ["white", , ...fam , "blue"];
+copy.push("home3")
+console.log(copy)
+
+console.log(copy.slice(3, 7))
