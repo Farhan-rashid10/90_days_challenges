@@ -53,3 +53,13 @@ while(j <= 40){
 
 //let k = "hello world samiraa"
 //console.log(k)
+
+let guess = Math.floor(Math.random() * 10); // Random number between 0 and 9
+
+while (guess !== 5) { // Keep looping until user guesses 5
+  console.log("Guess a number between 0 and 9:", guess);
+  // Simulate user input (replace with actual user input logic)
+  guess = parseInt(prompt("Enter your guess:"));
+}
+
+console.log("You guessed it right!");
