@@ -77,14 +77,22 @@
 //     break;
 // }
 
-let age = 18
-switch(true){
-    case age >= 18:
-        console.log('you can vote')
-        break;
-        case age < 18:
-            console.log('go home')
-            break;
-}
+// let age = 18
+// switch(true){
+//     case age >= 18:
+//         console.log('you can vote')
+//         break;
+//         case age < 18:
+//             console.log('go home')
+//             break;
+// }
 
 
+// ternary expression
+
+let isbest = false;
+isbest === true ? 'you are technical mentor' : 'you are not fit for the job'
+console.log(isbest)
+
+
+// for loop
