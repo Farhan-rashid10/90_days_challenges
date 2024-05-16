@@ -1,0 +1,21 @@
+marker {
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 25px;
+}
+
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: white;
+    border-left-width: 10px;
+}
+
+.cap {
+    width: 60px;
+    height: 25px;
+}
+
+.cap, .sleeve {
+    display: inline-block;
+}
